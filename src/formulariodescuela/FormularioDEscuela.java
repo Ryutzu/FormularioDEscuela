@@ -13,6 +13,7 @@ import javax.swing.JOptionPane;
 /**
  *
  * @author Flores López -- Soria Lascarez
+ * Si mio
  */
 public class FormularioDEscuela {
 
