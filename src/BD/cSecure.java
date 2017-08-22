@@ -7,7 +7,7 @@ package BD;
 
 /**
  *
- * @author Usuario
+ * @author Flores López -- Soria Lascarez
  */
 public class cSecure {
     String _cad="";

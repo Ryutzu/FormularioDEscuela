@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Usuario
+ * @author Flores López -- Soria Lascarez
  */
 public class cBase {
     private String _user;

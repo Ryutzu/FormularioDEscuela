@@ -28,7 +28,7 @@ import javax.swing.ListSelectionModel;
 
 /**
  *
- * @author Usuario
+ * @author Flores López -- Soria Lascarez
  */
 public class cFormulario extends cBase implements ActionListener,KeyListener{
     public ArrayList<Object> objetos = new ArrayList<>();

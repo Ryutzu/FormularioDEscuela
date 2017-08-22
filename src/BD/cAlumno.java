@@ -10,13 +10,13 @@ import java.sql.SQLException;
 
 /**
  *
- * @author Profesor
+ * @author Flores López -- Soria Lascarez
  */
 public class cAlumno extends cBase{
     public String RegAl(String Nom, String NomP, String NomM, int Escul) throws SQLException{
         Permiso();
         conect();
-        String Exis="",sep="";
+        String Exis="";
         String comando= "{call spGuardaAlumno(?,?,?,?)}";
         _sts= _con.prepareCall(comando);
         _sts.setString(1,Nom);
