@@ -14,6 +14,7 @@ import java.sql.SQLException;
  */
 public class cAlumno extends cBase{
     public String RegAl(String Nom, String NomP, String NomM, int Escul) throws SQLException{
+        Permiso();
         conect();
         String Exis="",sep="";
         String comando= "{call spGuardaAlumno(?,?,?,?)}";

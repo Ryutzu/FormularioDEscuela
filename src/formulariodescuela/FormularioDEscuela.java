@@ -34,12 +34,14 @@ public class FormularioDEscuela {
         String sep="";
         try{
             cBase bd = new cBase();
+            bd.Permiso();
             bd.conect();
             ResultSet ok = bd.consu("select * from verEscuela");
             while(ok.next()){
                 Esc+=sep+ok.getString("nombre");
                 sep=",";
             }
+            bd.cerrar();
         }catch(Exception xD){
             JOptionPane.showMessageDialog(null,xD.getMessage());
         }
